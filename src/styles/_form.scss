@@ -1,0 +1,139 @@
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    h1 {
+        color: $textcolor;
+        padding-top: 20px;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+        color: $textcolor;
+        padding-top: 10px;
+    }
+}
+
+
+form #f-name,
+form #l-name,
+.email,
+.pass {
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #afb6d4;
+    font-size: 20px;
+    outline: none;
+}
+
+.name-details {
+    display: flex;
+    margin-top: 20px;
+}
+
+form #f-name {
+    width: 220px;
+    padding-left: 5px;
+    color: lightgray;
+}
+
+form #l-name {
+    width: 220px;
+    color: lightgray;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+.email,
+.pass {
+    padding-left: 5px;
+    margin-top: 10px;
+    color: lightgray;
+    outline: none;
+}
+
+form .bdy,
+form .gender {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: gray;
+}
+
+form .bdy-drop {
+    padding-top: 5px;
+}
+
+form .bdy-drop input {
+    height: 35px;
+    width: 75px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    outline: none;
+}
+
+form .gender {
+    margin-top: 10px;
+}
+
+form .gender-radio {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+form .gender-radio input {
+    display: inline-block;
+    margin: 10px;
+}
+
+form .policy {
+    font-size: 12px;
+    color: gray;
+    width: 350px;
+    line-height: 1.4;
+}
+
+form .policy a,
+form .band a {
+    text-decoration: none;
+    color: #3b5998;
+}
+
+form .sign-up {
+    width: 220px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border-style: none;
+    background: linear-gradient(#67ae55, #578843);
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    box-shadow: inset 0 1px 1px #a4e388;
+    border: 1px solid #3b6e22;
+    cursor: pointer;
+}
+
+form .sign-up:hover {
+    background: #69a74e;
+}
+
+hr {
+    color: lightgray;
+    margin-top: 20px;
+}
+
+form .band {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
